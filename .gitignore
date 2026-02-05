@@ -1,0 +1,41 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- uv / pip ---
+.uv/
+pip-wheel-metadata/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs / editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- ML artifacts (do NOT commit by default) ---
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.h5
+
+# --- Logs ---
+*.log
+
+# --- Temporary files ---
+.tmp/
+.cache/
